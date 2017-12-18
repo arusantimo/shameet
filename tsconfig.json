@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "allowJs": false,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noLib": false,
+    "jsx": "react",
+    "outDir": "src_ts_processed",
+    "rootDirs": ["src", "configs", "__mocks__"]
+  },
+  "filesGlob": [
+    "src/*.ts",
+    "src/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "!node_modules/**",
+    "typings/**/*.d.ts",
+    "custom_typings/**/*.d.ts"
+  ],
+  "exclude": [
+    "releases",
+    "node_modules",
+    "!node_modules/@kadira/storybook/config",
+    "src_ts_processed",
+    "config",
+    "dist"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}

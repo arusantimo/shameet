@@ -1,0 +1,17 @@
+node_modules/
+*.un~
+ibuild
+lib
+!tools/lib
+npm-debug.log
+dist
+tags
+.DS_Store
+*.log
+*.log.*
+nohup.out
+src_ts_processed
+config/Config.js
+config.ts
+configs.ts
+config_data
